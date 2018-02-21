@@ -86,3 +86,21 @@
 <p>Quando um projeto falhar, não tente encontrar um culpado, olhe para o passado e procure identificar se algum dos problemas ocorreu em seu projeto. Precisamos sempre buscar sua causa raiz. Não busque culpados, busque entender o que ocorreu e converse com seu time para tentar encontrar uma solução, um melhor caminho a ser seguido.</p>
 
 <p>Reuniões de retrospectiva de projeto são ótimas oportunidades de levantar problemas e discutir soluções com seu time. mias à frente, falremos sobre elas.</p>
+
+# Capítulo 2
+
+<h3>Introdução a Métodos Ágeis</h3>
+
+A principal diferença das metodologias ágeis em relação às tradicionais é o enfoque na adaptação, visando ter o mínimo realmente necessário para a realização do trabalho. Com essa estratégia, busca-se aceitar e trabalhar a mudança, reduzindo os custos de implantação.
+
+Os 4 valores do Manifesto Ágil são:
+
+* Indivíduos e interações mais que processos e ferramentas;
+* Software em funcionamento mais que documentação abrangente;
+* Colaboração com o cliente mais que negociação de contratos;
+* Responder a mudanças mais que seguir um plano.
+
+E os 12 princípios do Manifesto Ágil são:
+
+
+
