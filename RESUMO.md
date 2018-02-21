@@ -60,3 +60,29 @@
 <b>E qual a solução?</b>
 
 <p>Precisamos traablhar nos recursos até eles estarem prontos de verdade; ou seja, não podemos permitir que exista dentro do time de desenvolvimento o conceito de que está pronto, só falta testar.</p>
+
+<h4>Trabalho empurrado</h4>
+
+<p>Imagine a cena: o gerente de projetos avisa o time de desenvolvimento de que a empresa fechou um novo contrato e que o software deve ser entregue em uma determinada data, deixando já bem claro a todos que não existe a possibilidade de não a cumprir.</p>
+
+<p>O time de desenvolvimento começa a analisar os requisitos e gerar as tarefas, e logo percebe que, para cumprir a data já firmada com o cliente, que inclusive consta no contrato, será necessário produzir em uma velociadde muito acima do habitual. Ao notar isso, o nível de estresse do time é elevado, o ambiente fica tenso e os desenvolvedores programam a toque de caixa, começando a gerar um código sujo, mal estruturado e em cima de requisitios especificados de forma superficial. Como o tempo era curto, ninguém quis perder muito tempo com especificação, assim todos já foram logo metendo a mão na massa.</p>
+
+<p>Esse é um claro cenário de trabalho empurrado, que gera muito caos e pouco resultado!</p>
+
+<b>E qual é a solução?</b>
+
+<p>Se trabalho empurrado é um problema, trabalho puxado é a solução. O ideal é que esteja à disposição do time o que for necessário para o desenvolvimento de software e que as tareafs estejam corretametne priorizadas e, se possível, dispostas em um mural contendo todas as que serão trabalhadas nos próximos dias. Desse modo, uma ou mais pessoas puxam as tarefas e trabalham nelas até o fim, nunca esquecendo de desenvolver + testar, em vez de desenvolver primeiro, testar mais tarde.</p>
+
+<h4>Dívidas Técnicas</h4>
+
+<p>O termo dívida técnica é utilizado apra indiciar trechos de código que foram mal escritos, ou ecritos de qualquer forma, sem refatorar, sem testes automatizados e sem respeitar padrões. São as chamadas gambiarras ou bacas. Com o passar do tempo, esses trechos atrapalharão os desenvolvedores e mudanças que, teoricamente, seriam simples, passam a levar muito tempo para serem realizadas.</p>
+
+<b>E qual a solução?</b>
+
+<p>São excelentes formas de evitar a dívida técnica: especificar os requisitos com o formato de histórias de usuários, projeto simples, padrão de codificação, desenvolvimento guiado por testes (TDD), programação em pares, refatoração, integração contínua, boas práticas de programação e ritmo sustentável.</p>
+
+<h4>Conclusão</h4>
+
+<p>Quando um projeto falhar, não tente encontrar um culpado, olhe para o passado e procure identificar se algum dos problemas ocorreu em seu projeto. Precisamos sempre buscar sua causa raiz. Não busque culpados, busque entender o que ocorreu e converse com seu time para tentar encontrar uma solução, um melhor caminho a ser seguido.</p>
+
+<p>Reuniões de retrospectiva de projeto são ótimas oportunidades de levantar problemas e discutir soluções com seu time. mias à frente, falremos sobre elas.</p>
