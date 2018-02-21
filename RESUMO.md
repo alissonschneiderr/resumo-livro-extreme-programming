@@ -102,5 +102,59 @@ Os 4 valores do Manifesto Ágil são:
 
 E os 12 princípios do Manifesto Ágil são:
 
+* Nossa maior prioridade é satisfazer o cliente por meio da entrega contínua e adiantada de software com valor agregado;
+* Mudanças nos requisitos são bem-vindas no desenvolvimento, mesmo tardiamente. Processos ágeis tiram vantagem das mudanças, visando vantagem competitiva para o cliente;
+* Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo;
+* Pessoas de negócio e desenvolvedores devem trabalhar diariamente em conjunto por todo o projeto;
+* Construa projetos em torno de indivíduos motivados. Dê a eles o ambiente e o suporte necessários e confie neles para fazer o trabalho;
+* O método mais eficiente e eficaz de transmitir informações para (e entre) uma equipe de desenvolvimento é por meio de conversa face a face;
+* Software funcionando é a medida primário de progresso;
+* Os processos ágeis promovem desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente;
+* Contínua atenção à excel~encia técnica e bom design aumentam a agilidade;
+* Simplicidade - a arte de maximizar a quantidade de trabalho não realizado - é essencial;
+* As melhores arquiteturas, requisitos e designs emergem de equipes auto-organizáveis;
+* Em intervalos regulares, a equipe reflete sobre como tornar-se mais eficaz e, então, refina e ajusta seu comportamentode acordo.
 
+<h3>Lean Software Development</h3>
 
+O Lean, ou Sistema Toyouta e Produção (STP), revolucionou a indústria da manufatura, tanto pela geração de valor para o cliente, quanto para a satisfação de trabalho para o time. Essas suas características serviram de base para o casl Mary e Tom Poppendieck identificar semelhanças com o desenvolvimento ágil de software, criando o Lean Software Development (LSD).
+
+Com base nos seus pensmentos, foram identificados 7 princípios para o desenvolvimento de software:
+
+* Eliminar desperdícios;
+* Incluir qualidade no processo;
+* Criar conhecimento;
+* Adiar comprometimentos;
+* Entregar rápido;
+* Respeitar as pessoas;
+* Otimizar o todo;
+
+<h3>Scrum</h3>
+
+O Scrum surgiu na década de 90, crado por Ken Schwaber, Jeff Shuterland e Mike Beedle. Seu principal objetivo é prover um framework de gestão ágil para desenvolver e manter produtos complexos.
+
+Nele, a partir de um Backlog de Produto inicial, o trabalho que será realizado é priorizado na iteração, denominada Sprint. O desenvolvimento do Backlog da Sprint gera um incremento entregável do produto ao final de cada Sprint, na reunião de Revisão da Sprint. Esse trabalho é desenvolvido com a sincronização diária do Time de Desenvolvimento, na Reunião Diária. Ao final da Sprint, é realizada a reunião de Retrospectiva da Sprint, co o objetivo de reduzir riscos e promover a melhora contínua. O Dono do Produto é o papel responsável pelo gerenciamento do produto e o Scrum Master é pelo processo ajudando o Time de Desenvolvimento a resolver seus impedimentos.
+
+<b>Scrum precisa das práticas técnicas do XP</b>
+
+Scrum é um framework bastante popular atualmente e muito utiilzado para o gerenciamento de projetos, produtos e times. Por dar mais ênfase no gerenciamento de atividades e tarefas, ele pode (e deve) ser utilizado em conjunto com outros métodos e processos que focam em engenharia ágil de software, como o eXtreme Programming.
+
+Jeff Sutherland, cocriador do Scrum, diz que o Manifesto Agil é sobre o Scrum com práticas de engenharia do eXtreme Programming, e essa combinação é o framework preferencial.
+
+Veja também o que Ron Jeffries, Martin Fowler e James Shore falam da necessidade das práticas do XP na utilização do Scrum:
+
+"Você não vê times Scrum de alto desempenho sem práticas de engenharia do XP. É difícil escalar times XP sem Scrum, e Scrum soluciona os assuntos de interface com a gestão. Seja cuidadoso ao fazer partes de qualquer cosia e chamar isso de ágil." Ron Jeffries e Jeff Sutherland (2007)
+
+"Se você estiver procurando introduzir Scrum, certifique-se de prestar uma boa atenção às práticas técnicas. Nós tendemos a aplicar muitas dessas a partir do eXtreme Programming e elas se encaixam muito bem." - Martin Fowler (2009)
+
+"XP e Scrum são as melhores maneiras que nós sabemos para trabalhar bem em conjunto. Eles não são necessários - pode haver outras maneiras - e eles certametne não são suficientes - há um milhão de coisas que devemos fazer para ser bem-sucedido, e elas não estão todas escritas nos livros." - Ron Jeffries (2009)
+
+"Sem práticas de engenharia ágil do XP, a qualidade do código a produtividade diminui assintoticamente ao longo do tempo. Com elas, a produtividade começa inferior, mas em seguida aumenta assintoticamente." - James Shore (2008)
+
+<h3>eXtreme Programming (XP)</h3>
+
+<p>O eXtreme Programming é uma metodologia ágil de desenvolvimento de software voltada para times de pequeno a médio porte, no qual os requisitos são vagos e mudam frequentemente. Desenvolvido por Kent Beck, Ward Cunningham e Ron Jeffries, o XP tem como principal tarefa a codificação com ênfase menor nos processos formais de desenvolvimento e com uma maior disciplina de engenharia ágil de software para codificação e testes. Tem como valores a comunicação, a simplicidade, o feedback, a coragem e o respeito.</p>
+
+<p>O XP valoriza a automatização de testes, sendo estes criados antes, durante e depois da codificação. É flexível para a mudanças de requisitos, valorizando o feedback com o usuário e qualidade do código-fonte final.</p>
+
+<p>A ideia principal do XP é a criação de software de alta qualidade, abandonando todo tipo de overhead de processo que não suporte diretamente a entrega de valor. Ele é orientado explicitamente às pessoas e vai contra o senso comum do gerenciamento de que elas são peças intercambiáveis dentro do processo de desenvolvimento.</p>
