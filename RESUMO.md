@@ -163,7 +163,61 @@ Veja também o que Ron Jeffries, Martin Fowler e James Shore falam da necessidad
 
 <h3>Valores	do	eXtreme Programming</h3>
 
-<p>O	 eXtreme	 Programming	 define	 cinco	 valores	 para	 que	 seus
-papéis	 e	 práticas	 funcionem	 em	 sinergia	 de	 acordo	 com	 sua
-essência	 ágil:	 a	 comunicação,	 o	 feedback,	 a	 simplicidade,	 a
-coragem	e	o	respeito</p>
+<p>O eXtreme Programming define cinco valores para que seus papéis e práticas funcionem em sinergia de acordo com sua
+essência ágil: a comunicação, o feedback, a simplicidade, a coragem e o respeito.</p>
+
+<h3>Comunicação</h3>
+
+<p>A forma mais eficiente é a conversa face a face, usando um quadro branco como apoio para rabiscar ideias e/ou rascunhos sobre arquitetura de software. Distribuir quadros brancos no ambiente de desenvolvimento pode funcionar muito bem para
+estimular discussões de arquitetura, fluxos, algoritmos e, assim, aumentar a possibilidade deimplementar certo logona primeira
+tentativa.</p>
+
+<p>A comunicação incentiva diretamente outro valor essencial no XP:ofeedback.</p>
+
+<h3>Feedback</h3>
+
+<p>Na adoção das práticas, o feedback é realizado a todo momento, seja em relação aos requisitos do cliente, ao resultado da execução de testes unitários, ou na compilação do código na integração contínua. A compreensão das necessidades dos usuários e do negócio propriamente dito é um aprendizado constante. A razão de adotarmos estratégias iterativas e incrementais é que isso permite que os inevitáveis erros das pessoas sejam descobertos o mais cedo possível e reparados de forma metódica.</p>
+
+<h3>Simplicidade</h3>
+
+<p>Infelizmente, projetar um design simples não é algo fácil, pois muitos times já estão acostumados com a prática de futurologia, sofrendo da Síndrome de Nostradamus; ou seja, mesmo sabendo o que o cliente quer hoje, eles insistem em tentar desenvolver uma solução que também resolva problemas futuros. O ponto é: não temos certeza sobre o que vai acontecer no  futuro, então precisamos nos focar apenas nos problemas e necessidades atuais do nosso cliente.</p>
+
+<p>Lembre-se: busque sempre desenvolver o suficiente de forma simples e com qualidade.</p>
+
+<h3>Coragem</h3>
+
+<p>O cliente teme:</p>
+
+* Não obter o que foi solicitado/contratado;
+* Pedir a coisa errada;
+* Pagar demais e receber pouco;
+* Jamais ver um plano relevante;
+* Não saber o que está acontecendo (falta de feedback);
+* Ater-se às primeiras decisões de projeto e não ser capaz de reagir à mudança do negócio.
+
+<p>Já o desenvolvedor teme:</p>
+
+* Ser solicitado a fazer mais do que sabe fazer;
+* Ser ordenado a fazer coisas que não façam sentido;
+* Ficar defasado tecnicamente;
+* Receber responsabilidades, mas sem autoridade;
+* Não receber definições claras sobre o que precisa ser feito;
+* Sacrificar a qualidade em função do prazo;
+* Resolver problemas complexos sem ajuda;
+* Não ter tempo suficiente para fazer um bom trabalho.
+
+<p>Um verdadeiro time XP é composto de indivíduos corajosos que confiam em suas práticas, bem como nos seus colegas de time. A coragem faz-se ainda mais necessária nos momentos de crise.</p>
+
+<h3>Respeito</h3>
+
+<p>O respeito pelos colegas de time e pelo cliente é muito importante. Pessoas que são respeitadas sentem-se valorizadas. Os
+membros do time precisam respeitar o cliente; o cliente precisa respeitar os membros do time; e, além disso, o cliente deve fazer parte das decisões.</p>
+
+<p>Todos no time devem respeitar a posse coletiva do código, sempre primando pela qualidade e buscando um design simples por meio da refatoração.</p>
+
+<p>O ponto é: como se adquirem confiança e respeito? Obviamente, entregando softwares que funcionam. E mais que isso, o respeito é fundamental para uma relação transparente e duradoura. É isso que realmente forma a parceria e a colaboração de todos  envolvidos, algo essencial para a entrega contínua de valor.</p>
+
+# Capítulo 4
+
+<h3>Papéis do eXtreme Programming</h3>
+
