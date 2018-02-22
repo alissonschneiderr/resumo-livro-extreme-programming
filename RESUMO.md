@@ -158,3 +158,12 @@ Veja também o que Ron Jeffries, Martin Fowler e James Shore falam da necessidad
 <p>O XP valoriza a automatização de testes, sendo estes criados antes, durante e depois da codificação. É flexível para a mudanças de requisitos, valorizando o feedback com o usuário e qualidade do código-fonte final.</p>
 
 <p>A ideia principal do XP é a criação de software de alta qualidade, abandonando todo tipo de overhead de processo que não suporte diretamente a entrega de valor. Ele é orientado explicitamente às pessoas e vai contra o senso comum do gerenciamento de que elas são peças intercambiáveis dentro do processo de desenvolvimento.</p>
+
+# Capítulo 3
+
+<h3>Valores	do	eXtreme Programming</h3>
+
+<p>O	 eXtreme	 Programming	 define	 cinco	 valores	 para	 que	 seus
+papéis	 e	 práticas	 funcionem	 em	 sinergia	 de	 acordo	 com	 sua
+essência	 ágil:	 a	 comunicação,	 o	 feedback,	 a	 simplicidade,	 a
+coragem	e	o	respeito</p>
