@@ -221,3 +221,62 @@ membros do time precisam respeitar o cliente; o cliente precisa respeitar os mem
 
 <h3>Papéis do eXtreme Programming</h3>
 
+<p>O time XP é formado por papéis com objetivos diferentes, porém complementares, tais como: o papel de desenvolvedor (programador), do cliente, do gerente, do coach, do testador, do tracker e do cleaner (BECK, 1999).</p>
+
+<h3>Desenvolvedor</h3>
+
+<p>O desenvolvedor, também denominado programador, é o coração do XP. O desenvolvedor multidisciplinado é um
+profissional capaz de trabalhar em todas as etapas do desenvolvimento de software, desde a escrita de histórias de
+usuário até o deploy em produção. No time XP, ele é um programador que estima as histórias de usuários e tarefas, quebra
+as histórias em tarefas, escreve testes, escreve código, automatiza processos de desenvolvimento e, gradualmente, aprimora o design do sistema.</p>
+
+<p>Especificação, prototipação, design, desenvolvimento, testes e atividades ligadas ao DevOps são tarefas que o desenvolvedor
+poderá exercer em seu dia a dia. Desenvolvedores multidisciplinados elevam o nível de agilidade de um time, uma vez que todos podem vir a atuar em atividades que, eventualmente, tornam-se gargalos do projeto. Visto que eles escrevem código de produção em pares, precisam ter boas habilidades sociais e de relacionamento.</p>
+
+<h3>Cliente</h3>
+
+<p>Também conhecido como o dono do ouro, o cliente define e prioriza as histórias de usuário, validando o produto desenvolvido
+por meio de testes de aceitação. É importante que ele esteja o mais próximo possível do time, com disponibilidade suficiente para conversar e tirar as dúvidas habituais.</p>
+
+<p>O nosso cliente nem sempre será o usuário, podem ser as pessoas que realmente utilizarão o software no dia a dia.</p>
+
+<h3>Coach</h3>
+
+<p>É o técnico do time XP. Ele orienta a todos, mantendo a disciplina na aplicação das práticas ágeis, e lembra a equipe da
+importância das cerimônias (como a reunião em pé, o jogo do planejamento e a reunião de retrospectiva, tudo que veremos mais
+à frente), da construção e manutenção de artefatos e do uso de ferramentas.</p>
+
+<h3>Testador</h3>
+
+<p>O testador no time XP auxilia o cliente a escolher e escrever testes de aceitação, para, então, automatizá-los. Ele serve também como um programador coach em técnicas de testes. Para o time de desenvolvimento, o testador não é responsável por pegar erros triviais, isto é papel dos próprios desenvolvedores. Ele faz parte do time XP, não devendo ser uma pessoa isolada e trabalhando em outro local. Ele pensa no teste e na qualidade do produto como um todo, considerando também os que rodarão na integração contínua, auxiliando em par os programadores a resolver problemas do sistema.</p>
+
+<h3>Cleaner</h3>
+
+<p>O cleaner é um membro do time que assume o papel de limpar o código; encorajar os membros a praticar pequenas refatorações;
+reduzir a complexidade e acoplamento do código; e a aumentar a coesão dos métodos, realizando sua extração e tornando o código cada vez mais enxuto (WUESTEFELD, 2010). Ele também se mantém o tempo todo atento aos impedimentos do time e às
+dívidas técnicas, ajudando, assim, a garantir a qualidade do código. </p>
+
+<p>São pré-requisitos para um bom cleaner: a excelência técnica, o conhecimento do negócio e da arquitetura, bem como uma boa
+didática para explicar aos desenvolvedores o motivo de cada refatoração para elevar o nível técnico de todos os membros do
+time.</p>
+
+<p>O cleaner incentiva o grupo a cuidar da saúde e do bem-estar do código. Um bom candidato pode ser o líder técnico ou o
+arquiteto do produto. Ele também pode conduzir Coding Dojos ou outras dinâmicas para elevar o conhecimento técnico da equipe.</p>
+
+<h3>Tracker</h3>
+
+<p>Responsável por coletar as métricas de projeto, o tracker é capaz de contar uma história da iteração do início ao fim, por meio dos apontamentos que realizou e das informações que foram coletadas.<p>
+
+<p>Ao final de cada iteração, ele pode gerar métricas que mostram o desempenho do time. O coach pode trabalhá-las com o grupo,
+buscando manter aquilo que estiver satisfatório e modificar o que não estiver indo bem.</p>
+
+<h3>Gerente</h3>
+
+<p>O gerente facilita a comunicação dentro de um time XP e coordena a comunicação com clientes, fornecedores e com o resto da organização. Ele gerencia e acompanha o planejamento do projeto, pois o planejamento no XP é uma atividade, e não uma fase; e auxilia na priorização das histórias de usuário, assim como no agendamento de reuniões e de demonstrações com o cliente e os usuários. Também gera relatórios e gráficos de acompanhamento do projeto e administra a infraestrutura necessária ao time (máquinas, licenças, espaços físicos etc.).</p>
+
+<p>O gerente não é o chefe do time de desenvolvimento, mas pode (e deve) ser um líder servo, o que significa que ele reconhece e
+auxilia nas suas necessidades reais.</p>
+
+<h3>Outros Papéis</h3>
+
+<p>O XP considera que outros papéis relacionados ao negócio podem fazer parte do time, podendo incluir: usuários, consultores, chefes e executivos (BECK, 2004). Porém, por tratarem-se de papéis complementares do XP, eles não serão abordados por nós.</p>
