@@ -333,3 +333,151 @@ auxilia nas suas necessidades reais.</p>
 
 <h4>"Histórias	não	são	requisitos;	elas	são	discussões	sobre	resolver problemas	para	nossa	organização,	nossos	clientes	e	nossos usuários que	levam	a	acordos	sobre	o	que	construir."	─	Jeff	Patton </h4>
 
+<p>Cada	história	segue	um	ciclo	de	vida, normalmente	nascendo	como	um	épico	(histórias	grandes),	sendo detalhada	de	acordo	com	sua	prioridade.	Elas	são	textuais,	não necessitam	de	ferramenta	específica,	são	compreensíveis	por	todos do	desenvolvimento	ou	do negócio,	e	são	descritas	em	cartões, também	chamadas	de	cartões	de	história	(story card).</p>
+
+<p>Exemplos	de	histórias	de	usuário:</p>
+
+* Como	um	contador,	eu	quero	registrar	uma movimentação	de	patrimônio; Como	uma	leitora,	quero	pesquisar	livros	por categoria;
+* Como	repositor	de	estoque,	quero	localizar	quais	as prateleiras	do	supermercado	que	contêm	menos	de 50%	de	sua	capacidade	de produtos. 
+* Como	cliente,	quero	encontrar	as	pizzarias	na	minha cidade	que	estejam	abertas	na	segunda-feira	à	noite.
+
+<p>A	essência	da	utilização	de	histórias	de	usuários	como requisitos	está	de	acordo	com	os	valores	do	Manifesto	Ágil</p>
+
+* <b>Indivíduos	e	interações	mais	que	processos	e ferramentas:</b>	elas	enfatizam	a	conversação,	não dependendo	de	processo	ou	de	ferramenta; 
+* <b>Software	em	funcionamento	mais	que documentação	abrangente:</b>	elas	vão	direto	ao	ponto com	uma	forma	flexível	de	documentação	para	o	que há	de	maior	valor	para	o	negócio;
+* <b>Colaboração	com	o	cliente	mais	que	negociação	de contratos:</b>	por	serem	sucintas	e	necessitarem	da conversação	do	cliente	com	os	desenvolvedores, permitem	a	negociação	e	colaboração	com	o	negócio;
+* <b>Responder	a	mudanças	mais	que	seguir	um	plano:</b> elas	respondem	às	mudanças	por	serem	flexíveis	em seu	ciclo	de	vida,	dando	base	para	as	alterações quando	necessárias.
+
+<h3>Modelo 3C</h3>
+
+* <b>Cartão:</b> as	histórias	de	usuário	são	escritas	em cartões	(ou	no	tamanho	de	um	cartão).	Ele	não conterá	toda	a	informação	de	um	requisito,	mas	serve para	lembrar	a	todos	do	que	este	se	trata.	As prioridades	e	os	custos	também	podem	ser	anotados neles. 
+
+* <b>Conversação:</b>	o	requisito	é	comunicado	do	cliente ao	time	por	conversação	(face	a	face),	podendo	ser suplementado	por	documentos. 
+
+* <b>Confirmação:</b> a	confirmação	da	história	dá-se	por exemplos	para	criar	testes	de	aceitação;	ou	seja,	pelos critérios	de	aceitação.	O	cliente	dirá	ao	time	como aceitará	cada	história	por	meio	de	critérios	de aceitação.	Essa	é	uma	ótima	forma	de	suplementar	a documentação.	A	preferência	é	de	que	esses	critérios sejam	automatizados	pelo	time.	A	história	de	usuário estará	pronta	quando	todos	eles	estiverem passando nos	testes	de	aceitação.
+
+<h3>Ciclo de Vida</h3>
+
+<p>Cada	história	segue	um	ciclo	de	vida,	sendo	refinada progressivamente.	Elas	normalmente	nascem	em	épicos	e	são agrupadas	em	temas.	Um	épico	pode	ser	visto	como	uma	história muito	grande	(PICHLER,	2010)	que	pode	levar	diversas	iterações para	serem	desenvolvidas	e	que	ajudam	a	esboçar	a	funcionalidade do	produto	sem	se	comprometer	com	detalhes.	Assim	que priorizado,	ele	é	quebrado em	diversas	histórias.</p>
+
+<p>Um	tema	representa	uma	capacidade	do	produto	ou	um objetivo,	ajudando	a	mostrar	sua	completude	e	também	a encontrar	as	histórias	certas.	Uma	estratégia	é	priorizar	os	temas para,	então,	priorizar	as	histórias	relacionadas.	Aquelas	de	maior prioridade terão	seus	critérios	de	aceitação	completos	e,	depois, serão	refinadas	com	INVEST 	e quebradas	em	tarefas	de	implementação.</p>
+
+<p>Um	exemplo	de	épico	pode	ser:	como	um	repositor	de	estoque, eu	quero	gerenciar	a	reposição	do	supermercado,	fazendo	parte	do tema	“Gestão	de	estoque”.	Uma	história	que	pode	nascer	a	partir dele	é:	como	repositor	de	estoque,	quero	localizar	quais	as prateleiras	do	supermercado	que	contêm	menos	de	50%	de	sua capacidade	de	produtos.</p>
+
+<h3>Utilizando um modelo de escrita</h3>
+
+<p>	Existem	alguns tipos	de	modelos	e	variações;	um	dos	mais	utilizados	é	o	da Connextra,	que	traz	as	informações principais	no cartão:</p>
+
+* <b>Como	um	(As	a…):</b>	para	quem	será	útil	a	história, para	qual	usuário	protagonista	do	sistema;	pode também	ser	uma	persona	(veremos	mais	na	seção Personas); 
+
+* <b>Eu	quero	(I	want…):</b>	o	que	a	história	está especificando	de	requisito,	a	necessidade	do	usuário propriamente	dita; 
+
+* <b>Para	que	(So	that…):</b>	razão	de	negócio,	o	motivo	pelo qual	a	história	existe;	mostra	o	valor	de	negócio	da história.
+
+<h3>Refinando com INVEST</h3>
+
+<p>Muitas	vezes,	as	histórias	de	usuário	precisam	ser	lapidadas, pois	podem	estar	complicadas	de	entender,	grandes	demais	para serem	desenvolvidas,	dependentes	demais	para	serem	entregues, ou	podem	não	ser	verificadas.	Para	esse	refinamento,	utiliza-se	o acrônimo	INVEST,	o	qual	traz	7	características.	Aplicar	todas	elas não	é	tão	fácil;	até	dizem	que	INVEST	é	o	nirvana	das	histórias	de usuários,	mas	deve-se	tentar	ao	máximo	obtê-las.</p>
+
+<p>Refinando	com	INVEST,	uma	história	de	usuário	deve	ser: </p>
+
+* <b>I</b>ndependente	de	outras	histórias	para	facilitar	a negociação,	a	priorização	e	a	implementação; 
+* <b>N</b>egociável	com	o	cliente,	para	que	o	time	possa manter	um	ritmo	sustentável	para	a	entrega	contínua de	valor; 
+* <b>V</b>alorosa,	assim	cada	entrega	agregará	grande	valor	ao negócio	do	cliente; 
+* <b>E</b>stimável,	desse	modo	o	time	poderá	estabelecer	quais histórias	serão	implementadas	de	acordo	com	sua velocidade; 
+* <b>S</b>mall	(pequena)	o	suficiente	para	ser	implementada dentro	de	uma	iteração,	sem	correr	grandes	riscos	de não	a	completar;
+* <b>T</b>estável,	apenas	assim	poderá	ter	qualidade	na entrega	e	certeza	de	que	o	cliente	aceitará	a	história como	pronta.
+
+<h3>Implementando com tarefas SMART</h3>
+
+<p>Cada	história	de	usuário	possuirá	tarefas	a	serem desenvolvidas,	como:	implementação,	teste,	integração	e	deploy. Quebrá-las	em	tarefas	gera	mais	certeza	do	trabalho	que	o	time precisará	entregar.	Cada	uma	delas	deverá	possuir	as	5 características	do	acrônimo	SMART:</p>
+
+* e<b>S</b>pecífica	o	suficiente	para	ser	entendida,	para	que	se implemente	exatamente	o	que	é	necessário,	evitando	a sobreposição	de	outras	tarefas;
+* <b>M</b>ensurável,	possuindo	um	tamanho	para	garantir	que a	tarefa	seja	concluída	(contabilizando	testes	e refatoração); 
+* <b>A</b>lcançável	para	que	todos	possam	ter	acesso	às informações	necessárias	para	sua	conclusão;
+* <b>R</b>elevante,	contribuindo	para	a	implementação	da história; 
+* <b>T</b>ime-boxed,	limitada	a	uma	duração	específica	(não sendo	uma	estimativa	formal,	mas	uma	expectativa	de desenvolvimento,	inclusive	para	pedir	ajuda).	Tarefas com	grande	duração	devem	ser	evitadas,	podendo serem	divididas	em	tarefas	menores	ou	sendo revisadas.
+
+<h3>Personas</h3>
+
+<p>Uma	forma	recomendada	para	pensar	mais	no	usuário	do sistema	é	utilizar	o	conceito	de	personas,	que	é	a	caracterização	de um	papel	de	usuário	do	sistema.	Uma	persona	descreve	as qualidades,	os	valores,	o	comportamento	e	os	objetivos	de	usuários alvos	no	sistema.	Uma	dica	é	dar	nomes	às	personas	que	lembrem seus	papéis;	por	exemplo,	o	nome	Ademar	para	a	persona	relativa ao	papel	de	administrador.	Na	escrita	da	história,	escreve-se	o nome	da	persona,	em	vez	do	papel	de	usuário.</p>
+
+<h3>Escrevendo boas histórias</h3>
+
+* <b>Comece	com	as	histórias	objetivas:</b> os usuários do sistema possuem	objetivos	diretos	no	sistema;	comece escrevendo	as	histórias	que	resolvam	os	problemas desses	objetivos. 
+
+* <b>Fatie	o	bolo:</b>	escreva	histórias	que	possuam	uma camada	de	cada	fase	de	implementação	de	uma funcionalidade,	desse	modo	entregará	valor.	Imagine uma	história	como	uma	fatia	de	bolo,	em	que	cada camada	é	a	parte	de	projeto,	codificação,	teste, integração	e	deploy. 
+
+* <b>Escreva	histórias	fechadas:</b>	faça	com	que	a	história entregue	valor	real	ao	negócio,	algo	que	conclua	o processo	do	usuário. 
+
+* <b>Coloque	as	restrições	nos	cartões:</b>	as	restrições	são	os requisitos	não	funcionais,	como	de	desempenho,	de carga,	de	segurança	e	de	usabilidade.	Elas	podem	ser descritas	nos	cartões	na	forma	de	critérios	de aceitação. 
+
+* <b>Escreva	suas	histórias	no	horizonte:</b>	utilize	o	ciclo	de vida	das	histórias	de	usuário.	Faça	com	que	elas surjam	de	épicos.	Conforme	a	prioridade,	os	épicos são	quebrados	em	histórias	e,	então,	é	iniciada	a especificação	dos	critérios	de	aceitação	relacionados. 
+
+* <b>Evite	a	interface	de	usuário	o	maior	tempo	possível:</b> a	essência	dos	detalhes	da	interface	de	usuário	é	de projeto,	e	não	de	requisito	de	usuário,	na	maioria	das vezes.	Detalhá-la	torna-se	necessário	conforme	a prioridade	aumenta.
+
+* <b>Algumas	coisas	não	são	histórias:</b>	histórias	são	para escrever	requisitos	de	usuário,	e	não	para	documentar a	ajuda	do	sistema,	por	exemplo. 
+
+* <b>Inclua	os	papéis	de	usuários:</b>	a	utilização	de	um modelo	ajuda	nisso,	pois	ele	lembra	de	escrever	para quem	a	história	servirá. 
+
+* <b>Escreva	para	a	persona	protagonista:</b>	muitas	vezes, uma	história	de	usuário	servirá	para	mais	de	uma persona	ou	mais	de	um	papel	de	usuário.	Por	essa razão,	escreva	a	história	para	a	persona	ou	papel	de usuário	que	mais	agregará	valor,	de	maior	propósito. 
+
+* <b>Escreva	em	voz	ativa:</b>	escrever	em	voz	passiva	pode tornar	a	história	confusa. 
+
+* <b>O	cliente	escreve:</b>	apenas	dessa	forma	não	haverá lacunas	na	escrita.	Quando	isso	não	for	possível,	faça com	que	ele	leia,	valide	e	discuta	todas	as	histórias. 
+
+* <b>Dê	títulos	às	histórias:</b>	um	título	ajudará	na	sua identificação.	Não	enumere	apenas	os	cartões	de história,	pois	é	muito	estranho	conversar	sobre	a "história	32".
+
+* <b>Não	esqueça	do	propósito:</b>	lembre-se	sempre	do propósito	de	uma	história	de	usuário,	que	é	servir como	um	lembrete	a	todos	(time	e	cliente)	para	a comunicação	do	requisito. 
+
+* <b>Descreva	os	defeitos	(bugs)	como	critérios	de aceitação:</b> 	quando	houver	um	bug,	provavelmente	é porque	faltou	ter	escrito	(ou	automatizado)	um critério	de	aceitação.	Escreva	um	critério	de	aceitação que	falhe	diretamente	no	problema.
+
+<h3>Catálogo de Story Points</h3>
+
+<p>Para	escrever	boas	histórias,	também	é	necessário	identificar	e evitar	bad	smells	(maus	cheiros).	O	livro	User	stories	applied	do Mike	Cohn	(2004)	possui	um	catálogo	desses	smells,	que	ocorrem normalmente	quando: </p>
+
+* <b>A	história	depende	de	várias	outras	histórias:</b>	a interdependência	impossibilita	a	negociação	e	a priorização	das	histórias; A	história	está	muito	curta:	histórias	são	sucintas, mas	não	é	para	serem	muito	curtas; 
+* <b>A	história	possui	muitos	detalhes:</b>	repetindo	que histórias	são	sucintas.	Os	detalhes	normalmente	serão discutidos	entre	o	time	e	o	cliente,	lembre-se	do modelo	3C; 
+* <b>Há	funcionalidades	não	necessárias:</b>	lembre-se	do valor	do	XP:	simplicidade.	Quando	houver funcionalidades	desnecessárias	em	histórias,	é	um grande	indicador	de	que	não	se	está	pensando	em simplicidade; 
+* <b>O	cliente	não	escreve,	não	confirma	e	não	prioriza as	histórias:</b>	esse	é	um	dos	mais	comuns	e	piores maus	cheiros; 
+* <b>Não	está	explícito	o	valor	do	negócio:</b>	escrever	a razão	de	negócio	ajuda	a	demonstrar	seu	valor.	Um modelo	ajuda	nisso.	Histórias	com	pouco	valor	não podem	ser	priorizadas.	Provavelmente,	o	problema está	em	uma	lacuna	na	realização	do	jogo	do planejamento; 
+* <b>É	pensado	muito	à	frente	nas	histórias:</b>	isso atrapalha	a	agilidade,	pois	mudanças	poderão	vir	logo, então	não	se	deve	detalhar	muito	à	frente.	Deve-se fazer	somente	o	necessário	para	as	histórias priorizadas; 
+* <b>É	detalhada	a	interface	de	usuário	muito antecipadamente:</b>	deve-se	pensar	na	interface	de usuário	quando	a	história	for	priorizada.	Utilize	o tempo	presente	para	trabalhar	com	as	histórias	já priorizadas; 
+* <b>Existir	detalhes	específicos	de	tecnologia,	projeto	de banco	de	dados	e	algoritmos:</b>	detalhes	de	projeto	e	de implementação	não	fazem	parte	de	requisitos.	Esses detalhes	deveriam	ser	discutidos	entre	o	time,	ou então	em	outros	formatos	de	especificação,	tais	como diagramas	e	protótipos.
+
+# Capítulo 8
+
+<h3>Testes de Aceitação</h3>
+
+<h4>"Testes	de	aceitação	são	mapas	da	estrada	para	a	iteração, dizendo	ao	time	aonde	é	preciso	ir	e	quais	pontos	de	referência olhar."	─	Lisa	Crispin</h4>
+
+<p>O	propósito	dos	testes	de	aceitação	é	a	comunicação,	a transparência	e	a	precisão	(MARTIN,	2012).	Quando	os desenvolvedores,	os	testadores	e	o	cliente	concordarem	com	eles, todos	entenderão	qual	é	o	plano	para	o	comportamento	do sistema.	Chegar	a	esse	ponto	é	responsabilidade	de	todas	as	partes. Eles	validam	como	o	cliente	aceitará	as	funcionalidades	prontas, pois	são	testes	funcionais	que	guiam	o	time	no	desenvolvimento para,	então,	colocar	em	produção	o	que	foi	decidido	que	o	sistema deve	conter.</p>
+
+<p>Esses	testes	são	criados	a	partir	das	histórias	de	usuários selecionadas	pelas	pessoas	de	negócio	no	planejamento	de iterações	(veremos	no	capítulo	O	jogo	do	planejamento).	A	história de	usuário	apenas	estará	completa	quando	todos	seus	critérios	de aceitação	estiverem	passando.	Auxiliado	pelo	testador	do	time,	o cliente	é	quem	especifica	os	exemplos	dos	critérios	de	aceitação	na forma	de	cenários,	que	podem	conter	dados	e	variações	que criticam	a	história	(CRISPIN,	2009).	Os	exemplos	de	cenários esclarecem	as	histórias	ao	time.</p>
+
+<h3>Automatização</h3>
+
+<p>Testes	de	aceitação	sempre	têm	de	ser	automatizados	por	uma razão	simples:	custo	(MARTIN,	2012).	Caso	você	ache	custoso	ter testes	de	aceitação	automatizados,	aguarde	para	ver	o	custo	da confusão	e	do	debug	de	código	ao	longo	prazo.</p>
+
+<p>Para	fazer	pequenas	entregas	frequentes,	é	necessário	que	os testes	de	aceitação	estejam	automatizados	e	que	rodem	no	build gerado	pelo	servidor	de	integração	contínua.	O	cliente	poderá decidir	se	uma	história	desenvolvida	poderá	ir	para	produção mesmo	quando	alguns	testes	de	aceitação	não	estiverem	passando. Apenas	ele	tem	esse	poder.</p>
+
+<h3>Validando com critérios de aceitação</h3>
+
+<p>Cada	história	de	usuário	possui	um	ou	mais	critério	de aceitação,	criado	também	pelo	cliente.	O	testador	ajuda-o	a	pensar em	cenários	bons	de	teste,	sendo	escritos	já	prevendo	a automatização.	Esses	critérios	descrevem	como	a	história	será aceita	pelo	cliente	e	servem	de	guia	para	o	desenvolvimento.</p>
+  
+<p>Como	exemplo,	considerando	a	história	Como	um	repositor	de estoque,	quero	localizar	quais	as	prateleiras	do	supermercado	que contêm	menos	de	50%	de	sua	capacidade	de	produtos,	podemos escrever	os	critérios	de	aceitação:</p>
+
+* Deve	exibir	uma	lista	de	prateleiras	com	o	setor	e	a seção	de	cada	uma,	e	o	tipo	e	o	nome	do	produto contido;
+* Deve	exibir	as	prateleiras	com	menos	de	50%	da capacidade	de	itens; 
+* Não	deve	exibir	as	prateleiras	com	50%	ou	mais	da capacidade	de	itens.
+
+<p>Os	critérios	de	aceitação	também	podem	seguir	um	modelo. Comumente,	o	utilizado	é	o	de	cenários	de	BDD	(BehaviourDriven	Development	─	Desenvolvimento	Guiado	por Comportamento)	(NORTH,	2006).	Esse	modelo	possui	três informações:</p>
+
+* <b>Dado	que:</b>	precondição,	são	os	passos	para	preparar para	ação	a	ser	validada; 
+* <b>Quando:</b>	ação	que	vai	disparar	o	resultado	a	ser validado; 
+* <b>Então:</b>	resultado	a	ser	validado.
+
+<p>Você	encontrará	bons	exemplos	de	histórias	com	critérios	de aceitação	no	livro	Histórias	de	usuário	(HELM;	WILDT,	2014). Como	um	exemplo,	o	critério	de	aceitação	Deve	exibir	o	setor	e	a seção	da	prateleira	com	o	tipo	e	o	nome	do	produto	usando	o modelo,	ficará	desta	forma:</p>
+
+* <b>Dado	que</b>	o	usuário	logado	é	um	repositor	de	estoque; 
+* <b>Quando</b>	o	item	de	menu	“Consultar	prateleiras	para reposição”	for	clicado; 
+* <b>Então</b>	a	lista	de	todas	as	prateleiras	para	reposição	é exibida.
