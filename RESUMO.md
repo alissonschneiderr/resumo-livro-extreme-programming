@@ -404,31 +404,18 @@ auxilia nas suas necessidades reais.</p>
 <h3>Escrevendo boas histórias</h3>
 
 * <b>Comece	com	as	histórias	objetivas:</b> os usuários do sistema possuem	objetivos	diretos	no	sistema;	comece escrevendo	as	histórias	que	resolvam	os	problemas desses	objetivos. 
-
 * <b>Fatie	o	bolo:</b>	escreva	histórias	que	possuam	uma camada	de	cada	fase	de	implementação	de	uma funcionalidade,	desse	modo	entregará	valor.	Imagine uma	história	como	uma	fatia	de	bolo,	em	que	cada camada	é	a	parte	de	projeto,	codificação,	teste, integração	e	deploy. 
-
 * <b>Escreva	histórias	fechadas:</b>	faça	com	que	a	história entregue	valor	real	ao	negócio,	algo	que	conclua	o processo	do	usuário. 
-
 * <b>Coloque	as	restrições	nos	cartões:</b>	as	restrições	são	os requisitos	não	funcionais,	como	de	desempenho,	de carga,	de	segurança	e	de	usabilidade.	Elas	podem	ser descritas	nos	cartões	na	forma	de	critérios	de aceitação. 
-
 * <b>Escreva	suas	histórias	no	horizonte:</b>	utilize	o	ciclo	de vida	das	histórias	de	usuário.	Faça	com	que	elas surjam	de	épicos.	Conforme	a	prioridade,	os	épicos são	quebrados	em	histórias	e,	então,	é	iniciada	a especificação	dos	critérios	de	aceitação	relacionados. 
-
 * <b>Evite	a	interface	de	usuário	o	maior	tempo	possível:</b> a	essência	dos	detalhes	da	interface	de	usuário	é	de projeto,	e	não	de	requisito	de	usuário,	na	maioria	das vezes.	Detalhá-la	torna-se	necessário	conforme	a prioridade	aumenta.
-
 * <b>Algumas	coisas	não	são	histórias:</b>	histórias	são	para escrever	requisitos	de	usuário,	e	não	para	documentar a	ajuda	do	sistema,	por	exemplo. 
-
 * <b>Inclua	os	papéis	de	usuários:</b>	a	utilização	de	um modelo	ajuda	nisso,	pois	ele	lembra	de	escrever	para quem	a	história	servirá. 
-
 * <b>Escreva	para	a	persona	protagonista:</b>	muitas	vezes, uma	história	de	usuário	servirá	para	mais	de	uma persona	ou	mais	de	um	papel	de	usuário.	Por	essa razão,	escreva	a	história	para	a	persona	ou	papel	de usuário	que	mais	agregará	valor,	de	maior	propósito. 
-
 * <b>Escreva	em	voz	ativa:</b>	escrever	em	voz	passiva	pode tornar	a	história	confusa. 
-
 * <b>O	cliente	escreve:</b>	apenas	dessa	forma	não	haverá lacunas	na	escrita.	Quando	isso	não	for	possível,	faça com	que	ele	leia,	valide	e	discuta	todas	as	histórias. 
-
 * <b>Dê	títulos	às	histórias:</b>	um	título	ajudará	na	sua identificação.	Não	enumere	apenas	os	cartões	de história,	pois	é	muito	estranho	conversar	sobre	a "história	32".
-
 * <b>Não	esqueça	do	propósito:</b>	lembre-se	sempre	do propósito	de	uma	história	de	usuário,	que	é	servir como	um	lembrete	a	todos	(time	e	cliente)	para	a comunicação	do	requisito. 
-
 * <b>Descreva	os	defeitos	(bugs)	como	critérios	de aceitação:</b> 	quando	houver	um	bug,	provavelmente	é porque	faltou	ter	escrito	(ou	automatizado)	um critério	de	aceitação.	Escreva	um	critério	de	aceitação que	falhe	diretamente	no	problema.
 
 <h3>Catálogo de Story Points</h3>
