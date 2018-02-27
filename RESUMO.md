@@ -285,7 +285,7 @@ auxilia nas suas necessidades reais.</p>
 
 <h3>Time Coeso</h3>
 
-<h3>"A aprendizagem	não	é	obrigatória...	Nem	a	sobrevivência."	─ William	Edwards	Deming</h3>
+<h4>"A aprendizagem	não	é	obrigatória...	Nem	a	sobrevivência."	─ William	Edwards	Deming</h4>
 
 <p>Comumente	nas	organizações,	diversos	processos	e ferramentas	são	desenvolvidos	para	tentar	resolver	problemas	que, na	realidade,	são	causados	por	lacunas	na	comunicação,	na confiança	das	pessoas	e	na	falta	de	motivação	dos	indivíduos, criando	formalismos	que	engessam	o	trabalho	e	geram	novos problemas.	Esse	primeiro	valor	enfatiza	a	importância	das	pessoas e	do	trabalho	em	time	para	um	melhor	desenvolvimento	de software.</p>
 
@@ -299,7 +299,7 @@ auxilia nas suas necessidades reais.</p>
 
 <p>	Não	há	a	necessidade	de controle	das	atividades	de	cada	indivíduo	do	time	por	um	gerente de	projetos	ou	um	coordenador. 	O	gerente	empodera	o	time nas	suas	decisões	e	trabalha	no	macrogerenciamento.	O microgerenciamento	está	dentro	do	próprio	time;	não	há	ninguém melhor	do	que	a	própria	equipe	para	tomar	suas	decisões	de trabalho.</p>
 
-<h3>Sentando lado a lado</3>
+<h3>Sentando lado a lado</h3>
 
 <p>É	essencial	que	o	time	sente-se	junto	no mesmo	ambiente	físico.	No	início	do	dia,	os	membros	realizam	as reuniões	diárias	face	a	face	e,	durante	ele,	a	programação	em	pares é	feita	constantemente.</p>
 
@@ -313,7 +313,7 @@ auxilia nas suas necessidades reais.</p>
 
 <h3>Cliente Presente</h3>
 
-<h3>"Clientes	não	esperam	que	você	seja	perfeito.	Eles	esperam	que você	resolva	coisas	que	eles	fizeram	errado."	─	Donald	Porter,	vicepresidente	da	British	Airways</h3>
+<h4>"Clientes	não	esperam	que	você	seja	perfeito.	Eles	esperam	que você	resolva	coisas	que	eles	fizeram	errado."	─	Donald	Porter,	vicepresidente	da	British	Airways</h4>
 
 <p>Uma	das	necessidades	básicas	do	XP	é	ter	o	cliente	presente, pois	isso	faz	com	que	ele	se	sinta	parte	do	time,	o	que	agiliza	o trabalho	dos	programadores. Todas	as	fases	do	XP	precisam	da	comunicação	com	o	cliente, de	preferência	face	a	face.	Por	isso,	é	interessante	que	ele	esteja	no próprio	local	do	desenvolvimento	do	software.	</p>
 
@@ -331,5 +331,5 @@ auxilia nas suas necessidades reais.</p>
 
 <h3>Histórias de Usuário</h3>
 
-<h3>"Histórias	não	são	requisitos;	elas	são	discussões	sobre	resolver problemas	para	nossa	organização,	nossos	clientes	e	nossos usuários que	levam	a	acordos	sobre	o	que	construir."	─	Jeff	Patton </h3>
+<h4>"Histórias	não	são	requisitos;	elas	são	discussões	sobre	resolver problemas	para	nossa	organização,	nossos	clientes	e	nossos usuários que	levam	a	acordos	sobre	o	que	construir."	─	Jeff	Patton </h4>
 
