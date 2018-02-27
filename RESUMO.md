@@ -280,3 +280,56 @@ auxilia nas suas necessidades reais.</p>
 <h3>Outros Papéis</h3>
 
 <p>O XP considera que outros papéis relacionados ao negócio podem fazer parte do time, podendo incluir: usuários, consultores, chefes e executivos (BECK, 2004). Porém, por tratarem-se de papéis complementares do XP, eles não serão abordados por nós.</p>
+
+# Capítulo 5
+
+<h3>Time Coeso</h3>
+
+<h3>"A aprendizagem	não	é	obrigatória...	Nem	a	sobrevivência."	─ William	Edwards	Deming</h3>
+
+<p>Comumente	nas	organizações,	diversos	processos	e ferramentas	são	desenvolvidos	para	tentar	resolver	problemas	que, na	realidade,	são	causados	por	lacunas	na	comunicação,	na confiança	das	pessoas	e	na	falta	de	motivação	dos	indivíduos, criando	formalismos	que	engessam	o	trabalho	e	geram	novos problemas.	Esse	primeiro	valor	enfatiza	a	importância	das	pessoas e	do	trabalho	em	time	para	um	melhor	desenvolvimento	de software.</p>
+
+<h3>Time Multidisciplinar</h3>
+
+<p>O	trabalho	multidisciplinar	tem	raízes	nas	células	de	produção do	Sistema	Toyota	de	Produção	(LIKER,	2005).	O	conceito	de células	de	produção	defende	o	trabalho	em	equipe	para	a	produção de	itens	com	características	similares,	sendo	uma	grande	inovação dos	japoneses	na	década	de	70.	Isso	revolucionou	a	ideia	tayloristafordista	de	ter-se	apenas	um	homem	por	estação	de trabalho executando	apenas	um	tipo	de	tarefa	especializada.</p>
+  
+<p>O	trabalho	em	célula	de	produção	cria	sinergia	entre	os indivíduos	e	otimiza	o	desempenho	do	processo,	eliminando diversos	desperdícios,	tais	como:	espera;	superprodução;	estoque; defeitos	de	qualidade;	movimentos;	transportes;	processos desnecessários;	e,	principalmente,	o	não	uso	da	criatividade	dos funcionários.	É	importante	salientar	que	o	membro	de	time	XP pode	assumir	mais	de	um	papel,	o	que	foi	abordado	com	mais detalhes	no	capítulo	anterior.</p>
+
+<h3>Time Auto-organizável</h3>
+
+<p>	Não	há	a	necessidade	de controle	das	atividades	de	cada	indivíduo	do	time	por	um	gerente de	projetos	ou	um	coordenador. 	O	gerente	empodera	o	time nas	suas	decisões	e	trabalha	no	macrogerenciamento.	O microgerenciamento	está	dentro	do	próprio	time;	não	há	ninguém melhor	do	que	a	própria	equipe	para	tomar	suas	decisões	de trabalho.</p>
+
+<h3>Sentando lado a lado</3>
+
+<p>É	essencial	que	o	time	sente-se	junto	no mesmo	ambiente	físico.	No	início	do	dia,	os	membros	realizam	as reuniões	diárias	face	a	face	e,	durante	ele,	a	programação	em	pares é	feita	constantemente.</p>
+
+<h3>As reuniões de retrospectiva e a melhoria contínua</h3>
+
+<p>Em	desenvolvimento	de	software,	existe	apenas	o	aperfeiçoar,	e não	a	perfeição.	Não	há	processo	perfeito,	nem	projeto	e	nem histórias	de	usuário.	Contudo,	a	melhoria	contínua	é	buscada	no dia	a	dia,	sendo	possível	aperfeiçoar	seu	processo,	seu	projeto	e suas	histórias. </p>
+
+<p>Qual	é	a	abordagem	do	XP	para	a	melhoria	contínua?	É simples:	conserte	o	XP	quando	ele	falhar.	O	eXtreme Programming	assume	que	não	trará	todas	as	respostas	para	o desenvolvimento	de	software,	pois	sabemos	que	não	há	bala	de prata	(BROOKS,	1987).	As	regras	devem	ser	seguidas	até	o	time precisar	mudá-las. </p>
+
+# Capítulo 6
+
+<h3>Cliente Presente</h3>
+
+<h3>"Clientes	não	esperam	que	você	seja	perfeito.	Eles	esperam	que você	resolva	coisas	que	eles	fizeram	errado."	─	Donald	Porter,	vicepresidente	da	British	Airways</h3>
+
+<p>Uma	das	necessidades	básicas	do	XP	é	ter	o	cliente	presente, pois	isso	faz	com	que	ele	se	sinta	parte	do	time,	o	que	agiliza	o trabalho	dos	programadores. Todas	as	fases	do	XP	precisam	da	comunicação	com	o	cliente, de	preferência	face	a	face.	Por	isso,	é	interessante	que	ele	esteja	no próprio	local	do	desenvolvimento	do	software.	</p>
+
+<p>O	cliente	tem	uma	participação	essencial	no	jogo	do planejamento,	escrevendo	e	priorizando	histórias	e	discutindo detalhes	dos	requisitos	diretamente	com	o	time	para	criarem	as tarefas	de	implementação. 	Ele	também	precisa	estar	disponível para	discutir	os testes	de	aceitação	para	que	o	time	valide	as histórias.</p>
+
+<p>Uma	objeção	comum	sobre	ter-se	o	cliente	presente	é	que	ele requisitará	apenas	o	que	é	de	seu	interesse	e	não	pensará	no negócio como	um	todo.	Isso	é	de	responsabilidade	do	trabalho	dele e	de	outras	pessoas	ligadas	ao	negócio,	e	poderá	acontecer	de qualquer	forma,	com	ou	sem	sua	presença.</p>
+  
+<p>Ter	somente	um	representante	do	negócio	(ou	até	não	possuir cliente)	pode	ser	um	problema,	pois	faz	com	que	funcionalidades sem	utilidade	sejam	desenvolvidas	e	que	critérios	de	aceitação	não realistas	sejam	criados.	O	time	de	desenvolvimento	trabalhará	por itens	sem	valor	real	que	não	fazem	parte	da	solução	real.</p>
+
+<h3>O que fazer quando o cliente não pode estar presente?</h3>
+
+<p>Utilize	ao	máximo	a	comunicação	por	telefone	e	reuniões virtuais.	O	trabalho	por	reuniões	remotas	é	uma	boa	alternativa. Ajudará	também	ter	um	representante	que	entenda	do	negócio	e tenha	tempo	e	acesso	ao	cliente.	Tente	ao	menos	que	ele compareça	nas	reuniões	de	planejamento.	E	mais,	se	for	possível, aproveite	ao	máximo	seu	tempo	e	faça	um	planejamento	presencial intensivo de	um	dia	inteiro	ou	de	uma	semana	inteira.</p>
+
+# Capítulo 7
+
+<h3>Histórias de Usuário</h3>
+
+<h3>"Histórias	não	são	requisitos;	elas	são	discussões	sobre	resolver problemas	para	nossa	organização,	nossos	clientes	e	nossos usuários que	levam	a	acordos	sobre	o	que	construir."	─	Jeff	Patton </h3>
+
