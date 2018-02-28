@@ -468,3 +468,104 @@ auxilia nas suas necessidades reais.</p>
 * <b>Dado	que</b>	o	usuário	logado	é	um	repositor	de	estoque; 
 * <b>Quando</b>	o	item	de	menu	“Consultar	prateleiras	para reposição”	for	clicado; 
 * <b>Então</b>	a	lista	de	todas	as	prateleiras	para	reposição	é exibida.
+
+# Capítulo 9
+
+<h3>Liberação frequente de pequenas entregas</h3>
+
+<h4>"Software	funcionando	é	a	medida	primária	de	progresso."	─	7º princípio	do	Manifesto	Ágil</h4>
+
+<p>Diversos	benefícios	surgem	quando	se	liberam	frequentemente pequenas	entregas	com	alto	valor: </p>
+
+* Entrega	de	valor	adiantado	e	contínuo; 
+* O	processo	é	aprimorado	rapidamente	por	falhar	mais cedo	(conceito	fail	fast);
+* Feedback	do	cliente	mais	cedo	para	confirmação	ou adaptação	dos	requisitos;
+* Satisfação	dos	usuários	por	ter	respostas	rápidas	às suas	necessidades; 
+* Maior	qualidade,	confiança	e	estabilidade; 
+* Reduz	a	taxa	de	defeitos	por	precisar	realizar	testes completos	em	ciclos	menores; 
+* Realiza	um	design	simplificado	e	suficiente	apenas para	a	entrega	em	questão; 
+* O	código	é	atualizado	e	integrado	com	maior frequência; 
+* O	software	não	fica	ultrapassado; 
+* Maior	engajamento	do	time	por	ver	seu	trabalho sendo	útil	e	empoderado; 
+* Facilita	enxergar	os	diversos	desperdícios	ocultados nas	grandes	entregas; 
+* Evita	a	procrastinação	de	prazos.
+
+<h3>Foco na qualidade é o ponto chave</h3>
+
+<p>A	qualidade	é	o	ponto-chave	para	entregar	com	frequência.	Os testes	automatizados	e	a	integração	contínua	são	essenciais	para agilizar	os	builds	das	entregas	com	alta	qualidade	no	software.</p>
+
+<h3>Releases tudo ou nada</h3>
+
+<p>Quanto	mais	tempo	aguardamos	para	liberar	uma funcionalidade	aos	usuários,	menos	tempo	você	terá	e	mais complexo	será	para	adaptá-la	ou	corrigi-la.	Na	visão	enxuta (LIKER,	2005),	a	liberação	frequente	de	pequenas	entregas	diminui consideravelmente	os	desperdícios	de	estoque,	defeitos	e	tempo	de espera	(do	cliente).	Isso	gera	fluidez	e	reduz	o	tempo	de	ciclo	das entregas	(tempo entre	o	fim	ou	o	início	de	produção	de	dois	itens).</p>
+
+# Capítulo 10
+
+<h3>O jogo do planejamento</h3>
+
+<h4>"Planos	não	são	nada.	Planejamento	é	tudo."	─	Dwight	David "Ike"	Eisenhower</h4>
+
+<p>As	pessoas	de	negócio	definem	o	escopo,	a	prioridade,	a composição	e	as	datas	das	entregas.	As	decisões	de	negócio	têm suporte	das	pessoas	de	desenvolvimento.	Estas	tomam	decisões técnicas	por	meio	de	estimativas	e	de	análises	de	consequências técnicas	no negócio,	e	decidem	seu	processo	de	trabalho.	Tanto	o Negócio	quanto	o	Desenvolvimento	têm	voz	nas	decisões	das entregas.	Não	há bola	de	neve	no	XP.</p>
+
+<h3>Definindo o jogo e suas regras</h3>
+
+* <b>Objetivo:</b>	maximizar	o	valor	do	software	produzido pelo	time;	ou	seja,	colocar	em	produção	a	maior quantidade	de	histórias	de	usuário	com	maior	valor	ao longo do projeto;
+
+* <b>Estratégia:</b>	o	time	deve	investir	o	menor	esforço	para colocar	a	funcionalidade	de	maior	valor	em	produção tão	rápido	quanto	possível,	em	conjunto	com estratégias	de	projeto	e	programação	para	reduzir	o risco.	Dividir	para	conquistar	é	a	estratégia	utilizada ao	dividir	o	software	em	entregas	frequentes,	e	cada entrega	em	iterações	pequenas. 
+
+* <b>As	peças:<b/>	as	peças	básicas	do	jogo	são	histórias	de usuário	e	as	tarefas	de	implementação.	As	histórias	são as	peças	no	planejamento	das	releases;	já	as	tarefas,	no planejamento	das	iterações.
+
+* <b>Os	jogadores:</b>	as	pessoas	do	Desenvolvimento	e	as pessoas	de	Negócio. 
+
+* <b>Os	movimentos:</b>	as	regras	dos	movimentos	existem para	lembrar	a	todos	de	como	eles	gostariam	de	agir em	um	melhor	ambiente	com	confiança	mútua	e	dar uma	referência	para	quando	as	coisas	não	estiverem indo	bem.
+
+<h3>Entendendo regras e comprometimento</h3>
+
+<h3>Parte A - Planejamento de Releases</h3>
+
+1 - Escrever histórias
+2 - Estimar histórias
+3 - Quebrar histórias grandes
+4 - Ordenar por valor
+5 - Ordenar por risco
+6 - Ordenar por velocidade
+7 - Selecionar escopo
+8 - Selecionar iteração
+9 - Recuperar?
+10 - Negociar nova história?
+11 - Reestimar?
+
+<h3>Parte B - Planejamento de Iterações</h3>
+
+1 - Escrever tarefas
+2 - Quebrar ou unir tarefas
+3 - Estabelecer fator de carga
+4 - Balancear tarefas
+5 - Estimar tarefas
+6 - Aceitar tarefas
+7 - Implementar tarefas
+8 - Registrar progresso
+9 - Recuperar?
+10 - Verificar histórias prontas
+
+<h3>Planejamento de releases</h3>
+
+<p>Para	uma	release,	o	jogo	do	planejamento	define	as	regras	para o	cliente	direcionar	o	desenvolvimento	na	frequência	de	uma	a	três semanas.	Seus	movimentos	para	uma	release	são	dados	em	três fases:	Exploração,	Comprometimento	e	Direcionamento.</p>
+
+* <b>Exploração:</b>	ambos	os	jogadores	descobrem	novos itens	que	o	sistema	pode	fazer,	dividindo-se	em	três movimentos: 
+
+** Escrever	uma	história	de	usuário:	o	Negócio escreve	algo	que	o	sistema	deverá	fazer;
+** Estimar	uma	história	de	usuário:	o Desenvolvimento	estima	o	tempo	ideal	de programação	para	implementar	a	história;
+** Quebrar	uma	história	de	usuário:	caso	o Desenvolvimento	não	consiga	estimar	a	história ou	sua	estimativa	for	muito	grande,	o	Negócio identifica	sua	parte	mais	importante	para	que	o Desenvolvimento	possa	estimá-la	e	desenvolvêla.	Spikes	podem	ser	utilizados para	melhorar	a estimativa	da	história.
+
+* <b>Comprometimento:</b>	o	Negócio	decide	o	escopo	e	o tempo	para	a	próxima	entrega	de	acordo	com	as estimativas,	e	o	Desenvolvimento	se	compromete	com a	entrega,	dividindo-se	em	quatro	movimentos: 
+
+** Ordenar	por	valor:	o	Negócio	separa	as	histórias em	três	categorias:	as	essenciais;	as	menos essenciais,	mas	de	alto	valor; e	as	que	seriam agradáveis	de	se	ter; 
+** Ordenar	por	risco:	o	Desenvolvimento	separa	as histórias	em	três	categorias:	aquelas	que	podem ser	estimadas	com	precisão,	aquelas	que	podem ser	estimadas	razoavelmente	bem,	e	aquelas	que não	podem	ser	estimadas	de	qualquer	modo; 
+** Ordenar	por	velocidade:	o	Desenvolvimento mostra	ao	Negócio	quanto	de	tempo	ideal	de programação	o	time	poderá	trabalhar	em	um mês do	calendário; 
+** Selecionar	escopo:	o	Negócio	escolhe	as	histórias para	a	entrega	(trabalhando	por	tempo)	ou	uma data	para	as	histórias	a	serem	desenvolvidas (trabalhando	por	escopo),	utilizando	as estimativas	realizadas	pelo	Desenvolvimento. 
+
+* <b>Direcionamento:</b>	o	plano	é	atualizado	no	que	foi aprendido	pelo	Negócio	e	pelo	Desenvolvimento, dividindo-se	em	quatro	movimentos: 
+
+** Iteração:	a	cada	iteração	(uma	a	três	semanas),	o Negócio	seleciona	uma	com	as	histórias	de	maior valor	a	serem	implementadas; ** Recuperação:	caso	o	Desenvolvimento	descubra que	sua	velocidade	foi	superestimada,	ele	pode pedir	ao	Negócio	para	encaixar	apenas	as histórias	de	maior	valor	de	acordo	com	a	nova velocidade; 
+** Nova	história:	caso	o	Negócio	descubra	uma nova	história	a	ser	adicionada	à	entrega	que	já está	sendo	desenvolvida,	ele	pode	escrevê-la,	o Desenvolvimento	estimá-la,	e,	então,	trocá-la	por outra	selecionada	pelo	Negócio; 
+** Reestimar:	caso	o	Desenvolvimento	descubra	que o	plano	não	é	exato,	ele	pode	reestimar	todas	as histórias	restantes.
