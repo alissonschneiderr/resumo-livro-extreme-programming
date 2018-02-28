@@ -557,14 +557,14 @@ auxilia nas suas necessidades reais.</p>
 ** Estimar	uma	história	de	usuário:	o Desenvolvimento	estima	o	tempo	ideal	de programação	para	implementar	a	história;
 ** Quebrar	uma	história	de	usuário:	caso	o Desenvolvimento	não	consiga	estimar	a	história ou	sua	estimativa	for	muito	grande,	o	Negócio identifica	sua	parte	mais	importante	para	que	o Desenvolvimento	possa	estimá-la	e	desenvolvêla.	Spikes	podem	ser	utilizados para	melhorar	a estimativa	da	história.
 
-* <b>Comprometimento:</b>	o	Negócio	decide	o	escopo	e	o tempo	para	a	próxima	entrega	de	acordo	com	as estimativas,	e	o	Desenvolvimento	se	compromete	com a	entrega,	dividindo-se	em	quatro	movimentos: 
+<p><b>Comprometimento:</b>	o	Negócio	decide	o	escopo	e	o tempo	para	a	próxima	entrega	de	acordo	com	as estimativas,	e	o	Desenvolvimento	se	compromete	com a	entrega,	dividindo-se	em	quatro	movimentos:</p>
 
 * Ordenar	por	valor:	o	Negócio	separa	as	histórias em	três	categorias:	as	essenciais;	as	menos essenciais,	mas	de	alto	valor; e	as	que	seriam agradáveis	de	se	ter; 
 * Ordenar	por	risco:	o	Desenvolvimento	separa	as histórias	em	três	categorias:	aquelas	que	podem ser	estimadas	com	precisão,	aquelas	que	podem ser	estimadas	razoavelmente	bem,	e	aquelas	que não	podem	ser	estimadas	de	qualquer	modo; 
 * Ordenar	por	velocidade:	o	Desenvolvimento mostra	ao	Negócio	quanto	de	tempo	ideal	de programação	o	time	poderá	trabalhar	em	um mês do	calendário; 
 * Selecionar	escopo:	o	Negócio	escolhe	as	histórias para	a	entrega	(trabalhando	por	tempo)	ou	uma data	para	as	histórias	a	serem	desenvolvidas (trabalhando	por	escopo),	utilizando	as estimativas	realizadas	pelo	Desenvolvimento. 
 
-* <b>Direcionamento:</b>	o	plano	é	atualizado	no	que	foi aprendido	pelo	Negócio	e	pelo	Desenvolvimento, dividindo-se	em	quatro	movimentos: 
+<p><b>Direcionamento:</b>	o	plano	é	atualizado	no	que	foi aprendido	pelo	Negócio	e	pelo	Desenvolvimento, dividindo-se	em	quatro	movimentos:</p>
 
 * Iteração:	a	cada	iteração	(uma	a	três	semanas),	o Negócio	seleciona	uma	com	as	histórias	de	maior valor	a	serem	implementadas; * Recuperação:	caso	o	Desenvolvimento	descubra que	sua	velocidade	foi	superestimada,	ele	pode pedir	ao	Negócio	para	encaixar	apenas	as histórias	de	maior	valor	de	acordo	com	a	nova velocidade; 
 * Nova	história:	caso	o	Negócio	descubra	uma nova	história	a	ser	adicionada	à	entrega	que	já está	sendo	desenvolvida,	ele	pode	escrevê-la,	o Desenvolvimento	estimá-la,	e,	então,	trocá-la	por outra	selecionada	pelo	Negócio; 
