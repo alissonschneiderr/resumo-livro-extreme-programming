@@ -569,3 +569,73 @@ auxilia nas suas necessidades reais.</p>
 * Iteração:	a	cada	iteração	(uma	a	três	semanas),	o Negócio	seleciona	uma	com	as	histórias	de	maior valor	a	serem	implementadas; * Recuperação:	caso	o	Desenvolvimento	descubra que	sua	velocidade	foi	superestimada,	ele	pode pedir	ao	Negócio	para	encaixar	apenas	as histórias	de	maior	valor	de	acordo	com	a	nova velocidade; 
 * Nova	história:	caso	o	Negócio	descubra	uma nova	história	a	ser	adicionada	à	entrega	que	já está	sendo	desenvolvida,	ele	pode	escrevê-la,	o Desenvolvimento	estimá-la,	e,	então,	trocá-la	por outra	selecionada	pelo	Negócio; 
 * Reestimar:	caso	o	Desenvolvimento	descubra	que o	plano	não	é	exato,	ele	pode	reestimar	todas	as histórias	restantes.
+
+<h3>Planejamento de iterações</h3>
+
+<p>	As	decisões	sobre	as	iterações	são	mais	flexíveis em	questão	de	escopo	e	de	prazos,	pois	dependem	mais	do Desenvolvimento;	enquanto	as	sobre	entregas	dependem	mais	do Negócio.	Suas	fases	são	semelhantes	às	de	uma	entrega: Exploração, Comprometimento	e	Direcionamento.</p>
+
+<p><b>Exploração:</b>	o	Desenvolvimento	cria	suas	tarefas	e identifica	o	tempo	de	trabalho,	dividindo-se	em	três movimentos:</p>
+
+* Escrever	uma	tarefa:	transformar	as	histórias	da iteração	atual	em	tarefas; 
+* Quebrar	ou	unir	tarefas:	caso	a	tarefa	esteja grande	demais,	quebre-a	em	tarefas	menores. Caso	ela	esteja	pequena	demais,	una-a	a	outra relacionada; 
+* Estabeleça	um	fator	de	carga:	cada	programador escolherá	seu	fator	de	carga	para	a	iteração,	o qual	é	a	porcentagem	de	tempo	que	ele	realmente estará	desenvolvendo;	ou	seja,	é	removido	o tempo	em	que	se	realiza	outras,	tais	como reuniões	do	time.
+
+<p><b>Comprometimento:</b>	o	Desenvolvimento compromete-se	com	suas	tarefas,	dividindo-se	em	três movimentos:</p>
+
+* Aceitar	uma	tarefa:	o	programador	puxa	a	tarefa para	si	e	aceita	a	responsabilidade	por	ela; 
+* Estimar	a	tarefa:	o	programador	responsável	pela tarefa	a	estima	em	Dias	Ideais	de	programação;
+* Balanceamento:	cada	programador	soma	suas tarefas	e	multiplica	pelo	fator	de	carga, balanceando	sua	carga	de	trabalho,	caso	esteja maior	ou	menor	do	que	a	estabelecida. 
+
+<p><b>Direcionamento:</b>	o	Desenvolvimento	desenvolve	as tarefas	para	verificar	a	história,	dividindo-se	em quatro	movimentos:</p>
+
+* Implementar	uma	tarefa:	o	programador	pega	o cartão	da	tarefa,	encontra	um	par	para programar,	desenvolve	a	tarefa	com	TDD (Desenvolvimento	Guiado	por	Testes)	e	ao	final integra	o	código	fazendo	passar	a	suíte	de	teste relacionada; 
+* Registrar	progresso:	a	cada	dois	ou	três	dias,	um membro	do	time	atualiza	o	andamento	das tarefas	de	cada	membro,	com	o	tempo	gasto	e	o tempo	que	falta	para	cada	tarefa; 
+* Recuperação:	programadores	que	ficaram sobrecarregados	pedem	ajuda	reduzindo	o escopo	das	tarefas,	reduzindo	o	escopo	das histórias, removendo	aquelas	não	essenciais	ou pedindo	ao	cliente	para	postergar	a	história	para outra	iteração; 
+* Verificar	a	história:	caso	estiverem	prontos,	rodar os	testes	funcionais	para	as	tarefas	que	já	foram concluídas,	complementando a	suíte	de	testes funcionais	com	os	novos	casos	de	testes;
+
+<h3>Mantendo o foco</h3>
+
+<p>Você	lembra-se	do	objetivo	do	jogo	do	planejamento? Maximizar	o	valor	do	software	construído	pelo	time	para	o	cliente é	o	foco	do	jogo.	É	importante	que	todos	participem (Desenvolvimento	e	Negócio)	com	colaboração.</p>
+
+<h3>Todo momomento é um momento de aprendizado</h3>
+
+<p>No	jogo	do	planejamento,	até	quando	se	erra,	aprende-se.	O erro	não	é	visto	como	algo	ruim,	desde	que	se	aprenda	com	ele. Quando	o	time	reconhecer	que	superestimou	sua	velocidade,	ele deve	comunicar	ao	Negócio	para	rearranjar	as	histórias	dentro	de sua	nova	velocidade.	Quando	houver	problemas	com	as estimativas,	devem-se	reavaliar	essas	estimativas	das	histórias.	É preciso	ter coragem	para	buscar	um	processo	que	seja transparente.	A	comunicação	e	o	feedback	são	importantes	para que	os	dois	jogadores	aprendam	a	melhor	forma	de	maximizar	o jogo.</p>
+
+# Capítulo 11
+
+<h3>Spikes de Planejamento</h3>
+
+<h4>"Algumas	vezes,	a	melhor	maneira	de	resolver	um	problema	é	ir para	casa,	jantar,	assistir	TV,	ir	para	a	cama,	e,	então,	acordar	na manhã	seguinte	e	tomar	um	banho."	─	Robert	C.	Martin</h4>
+
+<p>Os	spikes	de	planejamento	fazem	parte	de	uma	prática	que ajuda	o	time	a	gerar	o	conhecimento	necessário	para	estimar	as histórias	de	usuários	corretamente,	diminuindo,	assim,	o	risco	no planejamento	(WILDT;	LACERDA,	2010).	O	objetivo	é	aumentar a	confiança	para	um	bom	jogo	do	planejamento.	Um	spike	é	um programa	muito	simples	para	explorar	soluções	potenciais (WELLS,	1999).</p>
+
+<p>Faça	spikes	arquiteturais	para	descobrir	respostas	em dificuldades	técnicas	e	em	problemas	de	design,	ou	para	conhecer novas	tecnologias	(APIs,	frameworks,	ferramentas,	linguagens	de programação	etc.).	Quando	uma	dificuldade	técnica	importante surgir,	deixe	um	par	de	desenvolvedores	fazer	uma	por	alguns	dias até	ter	certeza	suficiente	sobre	sua	solução.</p>
+
+<p>Por	ser	uma	tarefa	a	ser	realizada,	os	spikes	podem	ser estimados.	Portanto,	trata-se	de	um	momento	planejado, garantindo-se que	será	feito	durante	uma	iteração. Preferencialmente,	faça-o	em	uma	iteração	e	somente	desenvolva	a história	de	usuário relativa	na	próxima.	Lembre-se	que	ele	serve para	diminuir	o	risco	da	estimativa	que	servirá	no	próximo planejamento,	e	também	não	se	esqueça	de	não	aproveitar	seu código.</p>
+
+<h3>Jogue fora o código gerado no spike</h3>
+
+<p>Trate	o	spike	como	um	experimento	e	assuma	que	seu	código será	jogado	fora.	Vá	direto	ao	ponto	para	resolver	a	incerteza.	Ele serve	para	saber	como	resolver	um	problema,	e	não	para	produzir um	código	(de	produção)	que	o	resolva	(SHORE,	2010).	Não	tente criar	programas	úteis	ou	reutilizáveis	em	produção.	O	spike	serve para	aprendizado,	uma	vez	que	se	trata	de	uma	prática	para descoberta.	Por	isso,	ignore	todas	as	preocupações	no	entorno	da questão.</p>
+
+# Capítulo 12
+
+<h3>Projeto simples do início ao fim</h3>
+
+<h4>"Simplicidade	é	mais	complicada	do	que	você	pensa.	Mas	ela	é bem	valiosa."	─	Ron	Jeffries</h4>
+
+<p>Para	termos	um	código	limpo,	a	refatoração	é	necessária,	assim evitando	os	code	smells	(maus	cheiros)	nele.	Um	código	é	simples (JEFFRIES,	2000)	quando:</p>
+
+* Roda	todos	os	testes; 
+* Expressa	todas	as	ideias	necessárias; 
+* Não	contém	código	duplicado; 
+* Possui	a	menor	quantidade	de	classes,	métodos	e variáveis; 
+* É	conciso	e	legível.
+
+<h3>MVP</h3>
+
+<h4>"Simplicidade	─	a	arte	de	maximizar	a	quantidade	de	trabalho não	realizado	─	é	essencial."	─	Décimo	princípio	do	Manifesto Ágil</h4>
+
+<p>A	expressão	YAGNI	(do	inglês,	You’re	Not	Gonna	Need	It	─ Você	não	precisará	disso)	lembra	todos	a	desenvolver	somente	o necessário	nas	histórias	atuais,	até	no	caso	de	que	se	saiba	que	será necessário	no	futuro.</p>
+
+<p>Menos	é	mais.	A	simplicidade	tem	foco	no	desenvolvimento	da essência	do	software.	Pequenas	entregas	de	valor	representam muito	do	que	o	cliente	necessita.	Alguns	programadores	(não	XP) adoram	entregar	algo	a	mais	ao	cliente;	já	os	extremos	não	fazem isso.	Programadores	XP	mantêm	o	projeto	simples	do	início	ao fim.</p>
+
