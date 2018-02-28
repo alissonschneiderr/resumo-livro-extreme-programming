@@ -551,11 +551,11 @@ auxilia nas suas necessidades reais.</p>
 
 <p>Para	uma	release,	o	jogo	do	planejamento	define	as	regras	para o	cliente	direcionar	o	desenvolvimento	na	frequência	de	uma	a	três semanas.	Seus	movimentos	para	uma	release	são	dados	em	três fases:	Exploração,	Comprometimento	e	Direcionamento.</p>
 
-* <b>Exploração:</b>	ambos	os	jogadores	descobrem	novos itens	que	o	sistema	pode	fazer,	dividindo-se	em	três movimentos: 
+<p><b>Exploração:</b>	ambos	os	jogadores	descobrem	novos itens	que	o	sistema	pode	fazer,	dividindo-se	em	três movimentos:</p>
 
-** Escrever	uma	história	de	usuário:	o	Negócio escreve	algo	que	o	sistema	deverá	fazer;
-** Estimar	uma	história	de	usuário:	o Desenvolvimento	estima	o	tempo	ideal	de programação	para	implementar	a	história;
-** Quebrar	uma	história	de	usuário:	caso	o Desenvolvimento	não	consiga	estimar	a	história ou	sua	estimativa	for	muito	grande,	o	Negócio identifica	sua	parte	mais	importante	para	que	o Desenvolvimento	possa	estimá-la	e	desenvolvêla.	Spikes	podem	ser	utilizados para	melhorar	a estimativa	da	história.
+* Escrever	uma	história	de	usuário:	o	Negócio escreve	algo	que	o	sistema	deverá	fazer;
+* Estimar	uma	história	de	usuário:	o Desenvolvimento	estima	o	tempo	ideal	de programação	para	implementar	a	história;
+* Quebrar	uma	história	de	usuário:	caso	o Desenvolvimento	não	consiga	estimar	a	história ou	sua	estimativa	for	muito	grande,	o	Negócio identifica	sua	parte	mais	importante	para	que	o Desenvolvimento	possa	estimá-la	e	desenvolvêla.	Spikes	podem	ser	utilizados para	melhorar	a estimativa	da	história.
 
 <p><b>Comprometimento:</b>	o	Negócio	decide	o	escopo	e	o tempo	para	a	próxima	entrega	de	acordo	com	as estimativas,	e	o	Desenvolvimento	se	compromete	com a	entrega,	dividindo-se	em	quatro	movimentos:</p>
 
