@@ -707,3 +707,13 @@ aprovação.	 Isso	 é,	 basicamente,	 o	 oitavo	 desperdício	 no	 Lean (LIKER,
 
 <p>Uma	 pessoa	 é	 notavelmente	 um	 gargalo	 no	 time	 ou	 no processo	quando	não	consegue	atender	todas	suas	demandas	e	cria
 estoque	 de	 tarefas,	 nas	 quais	 ninguém	 pode	 ajudar. E atenção: qualquer	membro	poderá	sair	da	empresa	a	qualquer	momento, o que	pode	impactar	no	negócio	do	cliente.</p>
+
+# Capítulo 16
+
+<h3>Padrão de Codificação</h3>
+
+<h4>“A	quantia	de	tempo	gasto	lendo	código	versus	escrevendo	é	bem mais	 de	10	para	1.	Então,	fazer	o	 código	mais	fácil	de	ler,	o	 torna mais	fácil	de	escrever.” ─	Robert	C.	Martin</h4>
+
+<p>Pelo	fato	de	todos	no	time	XP	estarem	trabalhando	juntos	em cada	 parte	 do	 sistema,	 refatorando	 código	 e	 trocando	 de	 pares frequentemente,	 não	 se	 pode	 haver	 diferentes	 formas	 de codificação.	 Um	 padrão	 torna-se	 necessário,	 pois	 deve	 facilitar	 a comunicação	entre	o	time,	encorajando	a	posse	coletiva,	e	evitando problemas	na	programação	em	pares	e	na	refatoração.</p>
+
+<p>O	 padrão	 deve	 ser	 estabelecido	 e	 concordado	 pelo	 time,	 pois faz	 com	 que	 todos	 o	 utilizem	 efetivamente.	 Caso	 contrário,	 a equipe	 ficará	 insatisfeita	 e	 evitará	 ao	 máximo	 seu	 uso.	 Sua existência	vale	muito	mais	do	que	a	sua	forma, porque	ele	pode	ser revisto	e	evoluído	de	acordo	com	seu	uso.</p>
