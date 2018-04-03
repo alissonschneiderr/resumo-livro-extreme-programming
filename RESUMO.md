@@ -688,8 +688,22 @@ um	despertador	ajuda	a	lembrar	o	time.
 
 * <b>Sem	local	 dedicado:</b>	 é	 importante	 manter	 um	 único lugar	para	que	o	 time	faça	a	diária,	de	preferência	ao próprio	 local	 de	 trabalho.	 A	 dica	 é	 fazer	 a	 reunião próximo	ao	quadro	de	histórias	e	tarefas	para	a	gestão visual.
 
-* <b>Não	 saber	 ouvir:</b	 para	 uma	 boa	 comunicação,	 é necessário	 saber	 falar	 e	 também	 ouvir	 atentamente Uma	 dica	 é	 ter um	 token	 para	 chamar	 a	 atenção	 de todos.	 Ele	 pode	 ser	 qualquer	 objeto	 que	 chame	 a atenção.	Se	for	um	objeto	engraçado,	fica	mais	fácil	de pedir	a	atenção	de	 todos.	 Já	vimos	equipes	utilizando canetas	 de	 quadro,	 apagadores,	 guarda-chuvas	 e	 até garrafa	de	óleo	diesel	(em	uma	empresa	de	refinaria). O	token	é	como	uma	bengala:	é	para	ser	temporário até que	o	time	caminhe	bem	nas	diárias.
+* <b>Não	 saber	 ouvir:</b>	 para	 uma	 boa	 comunicação,	 é necessário	 saber	 falar	 e	 também	 ouvir	 atentamente Uma	 dica	 é	 ter um	 token	 para	 chamar	 a	 atenção	 de todos.	 Ele	 pode	 ser	 qualquer	 objeto	 que	 chame	 a atenção.	Se	for	um	objeto	engraçado,	fica	mais	fácil	de pedir	a	atenção	de	 todos.	 Já	vimos	equipes	utilizando canetas	 de	 quadro,	 apagadores,	 guarda-chuvas	 e	 até garrafa	de	óleo	diesel	(em	uma	empresa	de	refinaria). O	token	é	como	uma	bengala:	é	para	ser	temporário até que	o	time	caminhe	bem	nas	diárias.
   
 * <b>Não	 fazer	 a	 reunião,	 porque	 um	 indivíduo	 está ausente:</b>	 é	melhor	 ter	 uma	 reunião	 sem	 um	membro do	time	do	que	não	tê-la.	A	dica	é	simples:	apenas	faça a	reunião. 
 
 * <b>Não	 ficar	 de	 pé:</b>	 uma	 dica	 de	 produtividade	 é	 fazer com	 que	 todos	 os	 participantes	 fiquem	 de	 pé	 na reunião	para	que	ela	seja	rápida	e	tenha	foco.	Isso	faz com	que	as	pessoas	prestem	mais	atenção	nas	outras. Reuniões	improdutivas com	elas	 sentadas	fazem	com que	 seja	 confortável	 a	 participação.	 Caso	 ela	 perca	 o foco,	as	pessoas	ficarão	cansadas	e	logo vão	querer	dar um	jeito	de	realinhar	e	finalizá-la.
+
+# Capítulo 15
+
+<h3>Posse Coletiva</h3>
+
+<h4>“Myyy	PRECIOUSSS.” ─	Gollum,	no	filme	O	Senhor	do	Anéis</h4>
+
+<p>Você	 assistiu	 ao	 filme	 O	 Senhor	 dos	 Anéis?	 O	 personagem Gollum	 (ou	 Sméagol)	 chamava	 o	 anel	 de	 my	 precious	 (em português,	“meu	precioso”).	Não	faça	isso	com	o	seu	código.	Deixe seu	 time	 colaborar!	O	 objetivo	é	evitar	as	ilhas	 de	 conhecimento, reduzindo	 o	 risco	 de	 depender	 apenas	 de	 uma	 pessoa.	 A	 posse coletiva	é	um	 benefício	 para	 todos	 os	membros	 (cada	um	 poderá sair	 de	férias	 ou	 tirar	 uma	folga	 com	mais	 tranquilidade	 por	 não dependerem	tanto	dele,	por	exemplo).</p>
+
+<p>Quando	a	posse	não	é	coletiva,	somente	uma	pessoa	é	dona	do código	 e	 os	 programadores	 devem	 submetê-lo	 para	 revisão	 e
+aprovação.	 Isso	 é,	 basicamente,	 o	 oitavo	 desperdício	 no	 Lean (LIKER,	 2005),	 que	 é	 relativo	 ao	 capital	 humano	 e	 à criatividade dos	funcionários.	 Consequentemente,	 isso	 gerará	 diversos	 outros desperdícios:	 espera	 (o	 time	 aguardará	 a	 revisão	 do	 dono	 do código);	transporte	(enviar	o	código	ao	dono);	defeito	(nem	toda	a decisão	 do	 dono	 será	 a	 melhor);	 superprocessamento	 (a	 revisão para	 controle	 pelo	 dono	 do	 código);	 e	 estoque	 (a	 fila	 de	 itens	 a revisar	pelo	dono).</p>
+
+<p>Uma	 pessoa	 é	 notavelmente	 um	 gargalo	 no	 time	 ou	 no processo	quando	não	consegue	atender	todas	suas	demandas	e	cria
+estoque	 de	 tarefas,	 nas	 quais	 ninguém	 pode	 ajudar. E atenção: qualquer	membro	poderá	sair	da	empresa	a	qualquer	momento, o que	pode	impactar	no	negócio	do	cliente.</p>
