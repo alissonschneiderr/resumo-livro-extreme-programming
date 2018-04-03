@@ -512,7 +512,7 @@ auxilia nas suas necessidades reais.</p>
 
 * <b>Estratégia:</b>	o	time	deve	investir	o	menor	esforço	para colocar	a	funcionalidade	de	maior	valor	em	produção tão	rápido	quanto	possível,	em	conjunto	com estratégias	de	projeto	e	programação	para	reduzir	o risco.	Dividir	para	conquistar	é	a	estratégia	utilizada ao	dividir	o	software	em	entregas	frequentes,	e	cada entrega	em	iterações	pequenas. 
 
-* <b>As	peças:<b/>	as	peças	básicas	do	jogo	são	histórias	de usuário	e	as	tarefas	de	implementação.	As	histórias	são as	peças	no	planejamento	das	releases;	já	as	tarefas,	no planejamento	das	iterações.
+* <b>As	peças:</b>	as	peças	básicas	do	jogo	são	histórias	de usuário	e	as	tarefas	de	implementação.	As	histórias	são as	peças	no	planejamento	das	releases;	já	as	tarefas,	no planejamento	das	iterações.
 
 * <b>Os	jogadores:</b>	as	pessoas	do	Desenvolvimento	e	as pessoas	de	Negócio. 
 
