@@ -639,3 +639,57 @@ auxilia nas suas necessidades reais.</p>
 
 <p>Menos	é	mais.	A	simplicidade	tem	foco	no	desenvolvimento	da essência	do	software.	Pequenas	entregas	de	valor	representam muito	do	que	o	cliente	necessita.	Alguns	programadores	(não	XP) adoram	entregar	algo	a	mais	ao	cliente;	já	os	extremos	não	fazem isso.	Programadores	XP	mantêm	o	projeto	simples	do	início	ao fim.</p>
 
+# Capítulo 13
+
+<h3>Metáfora de Sistema</h3>
+
+<h4>"98%	de	nosso	pensamento	 está	 realmente	acontecendo	em	um nível	 inconsciente,	 grande	 parte	 através	 de	 metáforas." ─  Esther Derby</h4>
+
+<p>No	 XP,	 a	 metáfora	 de	 sistema	 traz	 uma	 visão	 comum	 que auxilia	o	 time	e	o	cliente	a	entender	os	elementos	do	sistema.	Ela funciona	como	um	pattern	de	alto	nível	e	explica	 seu	design	 sem uma	documentação	pesada.	Ela	é	semelhante	à	linguagem	ubíqua, porém,	 enquanto	 esta	 se	 concentra	 em	 uma	 linguagem	 comum entre	o	negócio	e	os	desenvolvedores,	aquela	foca	na	linguagem	da arquitetura	da	solução.</p>
+
+<p>O	 nascimento	 dessa	 prática	 deu-se	 no	 sistema	 de	 folha	 de pagamento	 da	 Chrysler	 (KHALED;	 NOBLE;	 BIDDLE,	 2004).	 A
+metáfora	era	de	uma	fábrica	para	produzir	o	salário,	onde	as	caixas desciam	 em	 uma	 linha	 de	 montagem	 para	 serem  montadas.	 As caixas	 são	 as	 partes	 do	 salário	 a	 serem	 montadas	 em	 um	 item apenas:	o	salário	do	funcionário.	Um	outro	exemplo	é	o	de	James Shore	 em	 seu	 primeiro	 projeto	 XP,	 que	 era	 de	 data	 warehouse (armazém	 de	 dados)	 (SHORE,	2008),	 cujos	 nomes	 das	 classes	 do sistema	 utilizavam	 a	 metáfora	 de	 uma	 empilhadeira	 em	 um armazém.</p>
+
+<p>Muitas	 pessoas	 ignoram	 o	 uso	 dessa	 prática	 por	 não conhecerem	 sua	 utilidade.	 Uma	 metáfora	 de	 sistema	 ajuda	 a padronizar	os	nomes	dos	objetos	para	entendê-lo	e	também	auxilia a	reutilizar	códigos.	Desse	modo,	o	desenvolvedor	pode	descobrir se	 algum	 objeto	 já	 existe	 no	 software	 e	 decidir	 onde	 é	 o	 melhor local	 para	 colocá-lo.	 Por	 trazer	 um	 vocabulário	 compartilhado,	 é uma	excelente	fonte	de	comunicação	entre	a	equipe	e	pode	facilitar também	 na	 discussão	 das	 estimativas.	Apenas	 uma	 boa	metáfora pode	ser	realmente	efetiva.</p>
+
+<h3>Descobrindo uma boa metáfora</h3>
+
+<p>Joshua	 Kerievsky	 (2009)	 define	 os	 três	 Is	 da	 metáfora: Iluminação,	Inspiração	e	Integridade.	Uma	boa	metáfora	auxilia	a
+iluminar	 o	 design,	 inspirar	 novas	 ideias	 e	 ajudar	 a	 sentir	 que	 o projeto	do	sistema	está	coerente,	encaixando-se	bem	em	conjunto. Deve-se	buscar	uma	que	contenha	esses	três	itens.</p>
+
+# Capítulo 14
+
+<h3>Reunião Diária em Pé</h3>
+
+<h4>"Ter	as	melhores	ideias,	o	código	mais	afinado,	ou	o	pensamento mais	 pragmático	 é,	 em	 última	instância,	 estéril,	 a	menos	 que	 você possa	 se	 comunicar	 com	 outras	 pessoas.” ─	 Andy	 Hunt	 &	 Dave Thomas</h4>
+
+<h4>"Ao	 longo	 dos	 anos,	 eu	 tenho	 desenvolvido	 uma	 simples	 regra: quando	a	reunião	fica	entediante,	saia.” ─	Robert	C.	Martin</h4>
+
+<p>Para	o	time	no	XP,	as	reuniões	diárias	em	pé	─	do	inglês	Daily Stand	Up	Meeting ─	são	focadas	e	rápidas,	ocorrem	no	começo	do dia	 e	 duram	 até	 quinze	 minutos.	 Seu	 formato	 físico	 é	 simples: todos	 de	 pé	 formam	 um	 círculo	 e	 cada	 pessoa	 tem	 a	 sua	 vez	 de falar	no	sentido	horário	(ou	anti-horário).	Ela	faz	com	que	o	time mantenha-se	 alinhado,	 trocando	 conhecimento	 constantemente. Ao	 começar	 a	 fazê-las,	 diversos	 erros	 comuns	 podem	 ocorrer.</p>
+
+<h3>Troca de Conhecimento</h3>
+
+<p>Na	 reunião	 diária,	 cada	 indivíduo	 sabe	 o	 que	 o	 outro	 está trabalhando	 e	 se	 possui	 problemas	 relacionados	 a	 isso.	 Qualquer membro	do	grupo	pode	pedir	e	oferecer	ajuda	ao	outro,	tanto	em dúvidas	 de	 negócio,	 quanto	 de	 técnicas.	 Mesmo	 que	 cada programador	 puxe	 as	 tarefas	 das	 quais	 tem	 conhecimento suficiente	 para	 desenvolver,	 algumas	 virão	 somente	 durante	 seu desenvolvimento.	Muitas	vezes,	algo	que	foi	dito	na	reunião	servirá como	 referência	 no	 futuro.	 Uma	 boa	 forma	 para	 pedir	 ajuda	 é parear	(programar	em	pares)	com	a	pessoa	referente	ao	assunto	em questão.	Assim,	o	aprendizado	e	a	troca	de	conhecimento	tornamse constantes	e	colaborativos.</p>
+
+<h3>Erros Comuns</h3>
+
+* <b>Reunião	 de	 status:</b>	 a	 diária	 não	 é	 uma	 reunião	 de status	 reporting	 para	 uma	 pessoa,	 tal	 como	 um
+coordenador	ou	gerente.	Caso	seja	necessário,	a	dica	é realizá-la	 após	 alguém	 fazer	 o	 status	 reporting, possivelmente	o	Tracker.
+
+* <b>Discutir	soluções:</b>	um	dos	propósitos	dessa	reunião	é identificar	 problemas,	 não	 resolvê-los.	 A	 dica	 é continuar	 com	 a	 reunião	 diária,	 deixando	 a	 conversa sobre	as	solução	para	depois	dela.
+
+* <b>O	 time	 não	 vê	 valor:</b>	 isso	 pode	 ocorrer	 quando	 um time	 ágil	 está	 se	 formando.	 A	 dica	 é	 levantar	 esse
+problema	 na	 próxima	 reunião	 de	 retrospectiva	 do time.	Não	postergue.
+
+* <b>Não	 ter	 um	 horário	 fixo:</b>	 todos	 do	 time	 precisam saber	 o	 horário	 fixo	 diário	 da	 reunião	 para	 segui-lo
+estritamente.	 O	 horário	 da	 diária	 deve	 ser	 sagrado. Uma	 dica	 é	 ter	 o	 papel	 do	 "chato	 da	 diária";	 uma
+pessoa	eleita	para	lembrar	do	horário	e	dar	um	 toque caso	 a	 reunião	 demore	 ou	 perca	 o	 foco.	 Outra	 dica: 
+um	despertador	ajuda	a	lembrar	o	time.
+
+* <b>Sem	local	 dedicado:</b>	 é	 importante	 manter	 um	 único lugar	para	que	o	 time	faça	a	diária,	de	preferência	ao próprio	 local	 de	 trabalho.	 A	 dica	 é	 fazer	 a	 reunião próximo	ao	quadro	de	histórias	e	tarefas	para	a	gestão visual.
+
+* <b>Não	 saber	 ouvir:</b	 para	 uma	 boa	 comunicação,	 é necessário	 saber	 falar	 e	 também	 ouvir	 atentamente Uma	 dica	 é	 ter um	 token	 para	 chamar	 a	 atenção	 de todos.	 Ele	 pode	 ser	 qualquer	 objeto	 que	 chame	 a atenção.	Se	for	um	objeto	engraçado,	fica	mais	fácil	de pedir	a	atenção	de	 todos.	 Já	vimos	equipes	utilizando canetas	 de	 quadro,	 apagadores,	 guarda-chuvas	 e	 até garrafa	de	óleo	diesel	(em	uma	empresa	de	refinaria). O	token	é	como	uma	bengala:	é	para	ser	temporário até que	o	time	caminhe	bem	nas	diárias.
+  
+* <b>Não	 fazer	 a	 reunião,	 porque	 um	 indivíduo	 está ausente:</b>	 é	melhor	 ter	 uma	 reunião	 sem	 um	membro do	time	do	que	não	tê-la.	A	dica	é	simples:	apenas	faça a	reunião. 
+
+* <b>Não	 ficar	 de	 pé:</b>	 uma	 dica	 de	 produtividade	 é	 fazer com	 que	 todos	 os	 participantes	 fiquem	 de	 pé	 na reunião	para	que	ela	seja	rápida	e	tenha	foco.	Isso	faz com	que	as	pessoas	prestem	mais	atenção	nas	outras. Reuniões	improdutivas com	elas	 sentadas	fazem	com que	 seja	 confortável	 a	 participação.	 Caso	 ela	 perca	 o foco,	as	pessoas	ficarão	cansadas	e	logo vão	querer	dar um	jeito	de	realinhar	e	finalizá-la.
